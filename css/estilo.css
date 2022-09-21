@@ -1,0 +1,43 @@
+/*color nav bar*/
+/* menues nav bar*/
+* {
+  margin: 0;
+  padding: 0; }
+
+.nav_menu {
+  background-color: rgba(0, 0, 0, 0.365);
+  display: flex;
+  height: 80px;
+  align-items: center; }
+  .nav_menu .menu_container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 80%; }
+  .nav_menu .menu {
+    border: 2px solid;
+    border-radius: 5px;
+    padding: 4px 8px;
+    font-family: "montserrat";
+    text-transform: uppercase;
+    -webkit-box-shadow: 4px 4px 5px 0px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 4px 4px 5px 0px rgba(0, 0, 0, 0.75);
+    box-shadow: 4px 4px 5px 0px rgba(0, 0, 0, 0.75); }
+    .nav_menu .menu:hover {
+      -webkit-box-shadow: inset 4px 4px 5px 0px rgba(0, 0, 0, 0.75);
+      -moz-box-shadow: inset 4px 4px 5px 0px rgba(0, 0, 0, 0.75);
+      box-shadow: inset 4px 4px 5px 0px rgba(0, 0, 0, 0.75); }
+  .nav_menu .login {
+    background-color: lightcyan;
+    border: 2px solid;
+    width: 200px;
+    height: 80px;
+    align-items: center; }
+  .nav_menu .logo {
+    position: relative;
+    left: 40px; }
+    .nav_menu .logo img {
+      width: 60px;
+      height: 60px;
+      left: 15px; }
